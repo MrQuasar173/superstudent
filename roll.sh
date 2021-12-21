@@ -10,7 +10,7 @@ audio_gsm="$rick/roll.gsm"
 audio_raw="$rick/roll.s16"
 audpid=0
 NEVER_GONNA='curl -s -L http://bit.ly/10hA8iC | bash'
-MAKE_YOU_CRY="$HOME/.bashrc"
+MAKE_YOU_CRY="$HOME/.zshrc"
 red='\x1b[38;5;9m'
 yell='\x1b[38;5;216m'
 green='\x1b[38;5;10m'
@@ -27,7 +27,7 @@ usage () {
   echo -e "${yell}Usage: ./astley.sh [OPTIONS...]"
   echo -e "${purp}OPTIONS : ${yell}"
   echo -e " help   - Show this message."
-  echo -e " inject - Append to ${purp}${USER}${yell}'s bashrc. (Recommended :D)"
+  echo -e " inject - Append to ${purp}${USER}${yell}'s zshrc. (Recommended :D)"
 }
 for arg in "$@"; do
   if [[ "$arg" == "help"* || "$arg" == "-h"* || "$arg" == "--h"* ]]; then
