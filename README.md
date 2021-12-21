@@ -7,11 +7,11 @@ coded UTF-8 characters + audio (if available).
 ## How to Roll
 To start rickrollin’ immediately:
 
-    curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash
+    curl -s -L https://raw.githubusercontent.com/BomberFish/rickrollrc-zsh/master/roll.sh | bash
 
 Here is the clandestine command you can give to your friends 😈
 
-    curl -s -L http://bit.ly/10hA8iC | bash
+    curl -s -L http://bit.ly/3ekCTwx | bash
 
 ![rickroll in xterm](http://i.imgur.com/ZAsQWtP.png)
 ![rickroll in mac](http://i.imgur.com/yDLaZna.png)
@@ -51,11 +51,3 @@ like:
 
     termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
     defbce "on"
-
-Kudos to jart for our lovely hiptext shenanigans.
-Please see our sister project: [hiptext](https://github.com/jart/hiptext), which
-generates ANSI color codes for any image or video.
-
-<3,
-
-~serene ([@kiserene](http://twitter.com/kiserene))
