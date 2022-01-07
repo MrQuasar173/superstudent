@@ -1,7 +1,7 @@
 #!/bin/bash
 # Rick Astley in your Terminal.
 # By Serene Han and Justine Tunney <3
-version='1.1'
+version='1.2'
 rick='http://keroserene.net/lol'
 video="$rick/astley80.full.bz2"
 # TODO: I'll let someone with mac or windows machine send a pull request
@@ -24,7 +24,7 @@ quit() { echo -e "\x1b[2J \x1b[0H ${purp}<3 \x1b[?25h \x1b[u \x1b[m"; }
 usage () {
   echo -en "${green}Rick Astley performs ♪ Never Gonna Give You Up ♪ on STDOUT."
   echo -e "  ${purp}[v$version]"
-  echo -e "${yell}Usage: ./astley.sh [OPTIONS...]"
+  echo -e "${yell}Usage: ./roll.sh [OPTIONS...]"
   echo -e "${purp}OPTIONS : ${yell}"
   echo -e " help   - Show this message."
   echo -e " inject - Append to ${purp}${USER}${yell}'s zshrc. (Recommended :D)"
