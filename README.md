@@ -1,53 +1,17 @@
-# rickrollrc
+# SuperStudent
 
-Bash script which [rickrolls](http://en.wikipedia.org/wiki/Rickrolling) your
-terminal by playing Rick Astley’s “Never Gonna Give You Up” with ANSI 256-color
-coded UTF-8 characters + audio (if available).
+A fast and minimal app that brings together essential student info from places like *veacross*, *schedules*, *canvas*, *g suite* etc 
+and uses ***Fuzzy Finders*** to make the most relevent information available as quickly and easily as possible.
 
-## How to Roll
-To start rickrollin’ immediately:
+# Usage
 
-    curl -s -L https://raw.githubusercontent.com/BomberFish/rickrollrc-zsh/master/roll.sh | bash
+Currently, we are in a very early alpha stage. I plan to package it as an app when I haave time, but for now you can use the following
+commands in any bash or zsh terminal to download and run SuperStudent. Please don't try to build it yourself, it requires some strange compiler flags,
+toolchains, dependancies, and other stuff depending not just on your platform but other parts of your computer specifically. It is best just to let the
+run scripts take care of it for you.
 
-Here is the clandestine command you can give to your friends 😈
+to run:
 
-    curl -s -L http://bit.ly/3ekCTwx | bash
-
-![rickroll in xterm](http://i.imgur.com/ZAsQWtP.png)
-![rickroll in mac](http://i.imgur.com/yDLaZna.png)
-
-For the record: It is not actually a good idea to make a habit of
-
-    curl $(random_script_from_the_internets) | bash"
-
-Nevertheless, for the enhanced experience, I highly recommend the following:
-
-    ./roll.sh inject
-
-Which essentially just does:
-
-    echo "curl -s -L http://bit.ly/3ekCTwx | bash" >> ~/.zshrc
-
-For a salutary lesson in the importance of taking care what you
-execute in your terminal, inspired by the classic
-[sl](http://www.tkl.iis.u-tokyo.ac.jp/~toyoda/index_e.html), save the
-command in a shell script called `suod` somewhere on your `PATH`. It’s
-recommended to download the script for faster startup, to avoid
-spoiling the surprise when you accidentally execute it for the nth
-time (and also, unless you really like living dangerously, for
-security, in case we are demonically possessed to replace `roll.sh`
-with something evil).
-
-## Misc.
-
-This has been tested on Arch, Debian, Ubuntu, Mac and Cygwin (so far).
-To enable sound in Cygwin, install the **sox** package.
-
-Since this is a colorful hobby, you need to ensure 256-color mode is enabled or
-Astley will look sad.
-
-For example, if you use GNU screen, ensure your ~/.screenrc contains something
-like:
-
-    termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
-    defbce "on"
+```bash
+curl -s -L 
+```
