@@ -11,11 +11,12 @@ toolchains, dependancies, and other stuff depending not just on your platform bu
 run scripts take care of it for you.
 
 to run:
-    - Mac
+Mac:
 ```bash
 curl -s -L https://raw.githubusercontent.com/MrQuasar173/superstudent/main/run-mac.sh | bash
 ```
-    - Linux
+
+Linux:
 ```bash
 curl -s -L https://raw.githubusercontent.com/MrQuasar173/superstudent/main/run-linux.sh | bash
 ```
