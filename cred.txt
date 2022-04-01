@@ -1,0 +1,4 @@
+Thanks a ton to the other open-source projects used in this project:
+
+    - x64dbg, credited in src/LICENCE
+    - BomberFish's work on efficient scripting, check them out on github
